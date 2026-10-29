@@ -28,8 +28,11 @@
         header { background: var(--white); box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; width: 100%; }
         .nav-container { width: 100%; max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 15px 30px; }
         
-        .logo { font-family: 'Montserrat', sans-serif; font-weight: 700; color: var(--primary); font-size: 1.1rem; line-height: 1.2; text-decoration: none; }
-        .logo span { color: var(--accent); font-size: 0.8rem; display: block; font-weight: 600; }
+        /* Contenedor del Logo */
+        .brand-container { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+        .logo-img { height: 45px; width: auto; object-fit: contain; }
+        .logo-text { font-family: 'Montserrat', sans-serif; font-weight: 700; color: var(--primary); font-size: 1.05rem; line-height: 1.2; }
+        .logo-text span { color: var(--accent); font-size: 0.75rem; display: block; font-weight: 600; }
         
         nav ul { display: flex; list-style: none; gap: 25px; align-items: center; }
         nav a { text-decoration: none; color: var(--primary); font-weight: 600; font-size: 0.95rem; transition: color 0.3s; }
@@ -80,6 +83,7 @@
             nav ul.active { display: flex; }
             nav ul li { margin: 12px 0; }
             .policy-card { padding: 25px 20px; }
+            .logo-img { height: 35px; }
         }
     </style>
 </head>
@@ -92,9 +96,12 @@
 
     <header>
         <div class="nav-container">
-            <a href="index.html" class="logo">
-                ALTAS VERIFICACIONES EN SEGURIDAD
-                <span>AVS SAS | ISO/IEC 17020:2012</span>
+            <a href="index.html" class="brand-container">
+                <img src="logo.png" alt="Logo Altas Verificaciones" class="logo-img">
+                <div class="logo-text">
+                    ALTAS VERIFICACIONES EN SEGURIDAD
+                    <span>AVS SAS | ISO/IEC 17020:2012</span>
+                </div>
             </a>
             <button class="menu-toggle" id="menu-btn" aria-label="Abrir menú">
                 <i class="fa-solid fa-bars"></i>
