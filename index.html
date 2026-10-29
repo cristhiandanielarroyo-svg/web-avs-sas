@@ -19,6 +19,7 @@
             --dark: #222222;
             --white: #FFFFFF;
             --whatsapp: #25D366;
+            --github: #333; /* Color para el logo de GitHub */
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Open Sans', sans-serif; color: var(--dark); background-color: var(--light); line-height: 1.6; overflow-x: hidden; width: 100%; }
@@ -30,9 +31,24 @@
         .logo { font-family: 'Montserrat', sans-serif; font-weight: 700; color: var(--primary); font-size: 1.1rem; }
         .logo span { color: var(--accent); font-size: 0.8rem; display: block; font-weight: 600; }
         
+        nav { display: flex; align-items: center; gap: 20px; }
         nav ul { display: flex; list-style: none; gap: 25px; align-items: center; }
         nav a { text-decoration: none; color: var(--primary); font-weight: 600; font-size: 0.95rem; transition: color 0.3s; }
         nav a:hover { color: var(--accent); }
+
+        /* Estilos para el enlace de GitHub */
+        .github-link {
+            color: var(--github);
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: color 0.3s, transform 0.2s;
+            display: flex;
+            align-items: center;
+        }
+        .github-link:hover {
+            color: #000; /* Color al pasar el ratón */
+            transform: scale(1.1);
+        }
 
         /* Botón Menú Móvil (Hamburguesa) */
         .menu-toggle { display: none; font-size: 1.5rem; color: var(--primary); cursor: pointer; background: none; border: none; }
@@ -165,6 +181,10 @@
                     <li><a href="#pqrs" style="color: var(--accent);">Canal PQRS</a></li>
                     <li><a href="#contacto" class="btn" style="padding: 8px 18px; font-size: 0.9rem; color: #fff;">Contacto</a></li>
                 </ul>
+                <!-- Icono de GitHub añadido -->
+                <a href="https://github.com/cristhiandanielarroyo-svg/web-avs-sas" target="_blank" class="github-link" aria-label="Ver código en GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
             </nav>
         </div>
     </header>
