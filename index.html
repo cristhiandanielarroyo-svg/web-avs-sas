@@ -3,39 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inspección de Estaciones de Servicio y Pruebas de Hermeticidad | Altas Verificaciones en Seguridad</title>
-    <meta name="description" content="Organismo de inspección acreditado ONAC (24-OIN-047, ISO/IEC 17020:2012). Inspección de Estaciones de Servicio y pruebas de hermeticidad según la Resolución 40198. Cotice por WhatsApp.">
-    <meta name="theme-color" content="#0B2447">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="es_CO">
-    <meta property="og:title" content="Altas Verificaciones en Seguridad S.A.S | Organismo de Inspección acreditado ONAC">
-    <meta property="og:description" content="Inspección de Estaciones de Servicio y pruebas de hermeticidad a tanques y tuberías. Acreditación ONAC 24-OIN-047.">
-
+    <title>Altas Verificaciones en Seguridad S.A.S | Organismo de Inspección Acreditado ONAC</title>
+    <meta name="description" content="Organismo de Inspección acreditado bajo ISO/IEC 17020:2012 (Código 24-OIN-047). Inspecciones de Estaciones de Servicio (EDS) y pruebas de hermeticidad según Resolución 40198.">
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <!-- FontAwesome para Iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <!-- Datos estructurados (SEO) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Altas Verificaciones en Seguridad S.A.S",
-      "alternateName": "AV.S S.A.S",
-      "description": "Organismo de inspección acreditado por ONAC (código 24-OIN-047, ISO/IEC 17020:2012). Inspección de Estaciones de Servicio Automotriz y pruebas de hermeticidad a tanques y tuberías conforme a la Resolución 40198 de 2021.",
-      "telephone": "+573153655177",
-      "email": "administrativo@avssas.com",
-      "makesOffer": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Inspección de Estaciones de Servicio Automotriz" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pruebas de hermeticidad a tanques y tuberías" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pruebas hidrostáticas en tanques y tuberías" } }
-      ]
-    }
-    </script>
-
     <style>
         :root {
             --primary: #0B2447;
@@ -46,26 +19,21 @@
             --dark: #222222;
             --white: #FFFFFF;
             --whatsapp: #25D366;
-            --whatsapp-hover: #20ba5a;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
-        section[id] { scroll-margin-top: 90px; }
         body { font-family: 'Open Sans', sans-serif; color: var(--dark); background-color: var(--light); line-height: 1.6; overflow-x: hidden; width: 100%; }
         h1, h2, h3, h4 { font-family: 'Montserrat', sans-serif; color: var(--primary); }
-        :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
-        .hp { display: none !important; }
-
+        
         /* Header & Nav de Ancho Completo */
         header { background: var(--white); box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; width: 100%; }
         .nav-container { width: 100%; max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 15px 30px; }
-
+        
         /* Contenedor del Logotipo */
         .brand-container { display: flex; align-items: center; gap: 12px; text-decoration: none; }
         .logo-img { height: 45px; width: auto; object-fit: contain; }
         .logo-text { font-family: 'Montserrat', sans-serif; font-weight: 700; color: var(--primary); font-size: 1.05rem; line-height: 1.2; }
         .logo-text span { color: var(--accent); font-size: 0.75rem; display: block; font-weight: 600; }
-
+        
         nav ul { display: flex; list-style: none; gap: 25px; align-items: center; }
         nav a { text-decoration: none; color: var(--primary); font-weight: 600; font-size: 0.95rem; transition: color 0.3s; }
         nav a:hover { color: var(--accent); }
@@ -73,279 +41,436 @@
         /* Botón Menú Móvil (Hamburguesa) */
         .menu-toggle { display: none; font-size: 1.5rem; color: var(--primary); cursor: pointer; background: none; border: none; }
 
-        /* Botones */
-        .btn { display: inline-block; background: var(--accent); color: var(--white); padding: 12px 30px; border-radius: 5px; font-weight: 700; text-decoration: none; transition: background 0.3s, transform 0.2s; border: none; cursor: pointer; text-align: center; font-size: 1rem; font-family: 'Open Sans', sans-serif; }
-        .btn:hover { background: var(--accent-hover); transform: translateY(-2px); }
-        .btn-wa { background: var(--whatsapp); display: inline-flex; align-items: center; justify-content: center; gap: 10px; }
-        .btn-wa:hover { background: var(--whatsapp-hover); }
-        .btn-outline { background: transparent; border: 2px solid var(--white); }
-        .btn-outline:hover { background: var(--white); color: var(--primary); }
-        .btn-whatsapp-service { background: var(--whatsapp); display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 15px; width: 100%; padding: 10px; font-size: 0.95rem; color: #fff; text-decoration: none; border-radius: 5px; font-weight: 700; transition: background 0.3s, transform 0.2s; }
-        .btn-whatsapp-service:hover { background: var(--whatsapp-hover); transform: translateY(-2px); }
-
         /* Hero Section */
-        .hero { background: linear-gradient(rgba(11,36,71,0.9), rgba(25,55,109,0.9)), url('https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover; color: var(--white); text-align: center; padding: 100px 20px 110px; width: 100%; }
-        .hero h1 { font-size: 2.6rem; color: var(--white); margin-bottom: 20px; line-height: 1.2; max-width: 1000px; margin-left: auto; margin-right: auto; }
+        .hero { background: linear-gradient(rgba(11,36,71,0.9), rgba(25,55,109,0.9)), url('https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover; color: var(--white); text-align: center; padding: 110px 20px; width: 100%; }
+        .hero h1 { font-size: 2.8rem; color: var(--white); margin-bottom: 20px; }
         .hero p { font-size: 1.2rem; max-width: 900px; margin: 0 auto 30px; color: #e2e8f0; }
-        .hero-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
-        .hero .hero-note { font-size: 0.92rem; margin: 22px auto 0; color: #cbd5e1; }
-        .hero .hero-note i { color: var(--whatsapp); margin-right: 4px; }
         .badge-onac { background: rgba(255, 122, 0, 0.2); display: inline-block; padding: 8px 18px; border-radius: 30px; font-weight: 600; margin-bottom: 20px; border: 1px solid var(--accent); color: #fff; font-size: 0.9rem; }
-
-        /* Franja de confianza */
-        .trust-wrap { max-width: 1400px; margin: -42px auto 0; padding: 0 30px; position: relative; z-index: 2; }
-        .trust-strip { background: var(--white); border-radius: 10px; box-shadow: 0 8px 30px rgba(11,36,71,0.15); display: grid; grid-template-columns: repeat(4, 1fr); border-top: 4px solid var(--accent); }
-        .trust-item { display: flex; align-items: center; gap: 14px; padding: 20px 22px; border-right: 1px solid #e8ecf2; }
-        .trust-item:last-child { border-right: none; }
-        .trust-item i { font-size: 1.7rem; color: var(--accent); }
-        .trust-item strong { display: block; font-family: 'Montserrat', sans-serif; color: var(--primary); font-size: 0.95rem; line-height: 1.2; }
-        .trust-item span { font-size: 0.82rem; color: #5b6575; }
+        .btn { display: inline-block; background: var(--accent); color: var(--white); padding: 12px 30px; border-radius: 5px; font-weight: 700; text-decoration: none; transition: background 0.3s, transform 0.2s; border: none; cursor: pointer; text-align: center; }
+        .btn:hover { background: var(--accent-hover); transform: translateY(-2px); }
+        .btn-whatsapp-service { background: var(--whatsapp); display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 15px; width: 100%; padding: 10px; font-size: 0.95rem; color: #fff; text-decoration: none; border-radius: 5px; font-weight: 700; transition: background 0.3s, transform 0.2s; }
+        .btn-whatsapp-service:hover { background: #20ba5a; transform: translateY(-2px); }
 
         /* Botón Flotante de WhatsApp */
-        .whatsapp-float { position: fixed; bottom: 30px; right: 30px; background-color: var(--whatsapp); color: var(--white); width: 60px; height: 60px; border-radius: 50%; text-align: center; font-size: 32px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); z-index: 100; display: flex; align-items: center; justify-content: center; text-decoration: none; transition: transform 0.3s, background-color 0.3s; }
-        .whatsapp-float:hover { transform: scale(1.1); background-color: var(--whatsapp-hover); }
-
-        /* Barra de contacto fija (solo móvil) */
-        .mobile-cta-bar { display: none; }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: var(--whatsapp);
+            color: var(--white);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 32px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            background-color: #20ba5a;
+        }
 
         /* Secciones */
         section { width: 100%; max-width: 1400px; margin: 60px auto; padding: 0 30px; }
         .section-title { text-align: center; margin-bottom: 40px; }
         .section-title h2 { font-size: 2.2rem; position: relative; display: inline-block; }
         .section-title h2::after { content: ''; width: 60px; height: 3px; background: var(--accent); display: block; margin: 10px auto 0; border-radius: 2px; }
-        .section-sub { text-align: center; max-width: 760px; margin: -20px auto 40px; color: #4a5568; }
 
         /* Grids adaptables */
         .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: stretch; width: 100%; }
         .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; width: 100%; }
         .card { background: var(--white); padding: 35px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 4px solid var(--accent); height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
         .card h3 { margin-bottom: 15px; color: var(--primary); font-size: 1.3rem; }
-        .tag { display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 4px 10px; border-radius: 20px; margin-bottom: 12px; background: #fff1e0; color: var(--accent-hover); }
-        .tag.neutral { background: #e8eef8; color: var(--secondary); }
 
         /* Listas */
         ul.check-list { list-style: none; margin-top: 15px; margin-bottom: 20px; flex-grow: 1; }
         ul.check-list li { margin-bottom: 12px; position: relative; padding-left: 25px; font-size: 0.95rem; }
         ul.check-list li::before { content: '✔'; position: absolute; left: 0; color: var(--accent); font-weight: bold; }
-        .link-accent { color: var(--accent-hover); font-weight: 700; text-decoration: none; }
-        .link-accent:hover { text-decoration: underline; }
-
-        /* Por qué elegirnos */
-        .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
-        .why-item { background: var(--white); border-radius: 8px; padding: 28px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); display: flex; gap: 16px; align-items: flex-start; }
-        .why-item > i { font-size: 1.6rem; color: var(--accent); margin-top: 3px; }
-        .why-item h3 { font-size: 1.05rem; margin-bottom: 6px; }
-        .why-item p { font-size: 0.92rem; color: #4a5568; }
-
-        /* Cómo trabajamos */
-        .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
-        .step { background: var(--white); border-radius: 8px; padding: 30px 24px 26px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: center; }
-        .step-num { width: 46px; height: 46px; border-radius: 50%; background: var(--accent); color: #fff; font-family: 'Montserrat', sans-serif; font-weight: 700; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px; font-size: 1.2rem; }
-        .step h3 { font-size: 1.05rem; margin-bottom: 8px; }
-        .step p { font-size: 0.92rem; color: #4a5568; }
-
-        /* Autodiagnóstico */
-        .diag-card { max-width: 900px; margin: 0 auto; background: var(--white); border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-top: 5px solid var(--accent); padding: 35px; }
-        .diag-intro { color: #4a5568; margin-bottom: 25px; text-align: center; }
-        .diag-q { border: none; margin: 0 0 22px; padding: 0 0 18px; border-bottom: 1px solid #eef1f5; }
-        .diag-q legend { font-weight: 600; color: var(--primary); margin-bottom: 10px; font-size: 1rem; padding: 0; }
-        .diag-q.missing legend { color: #b91c1c; }
-        .pills { display: flex; gap: 10px; flex-wrap: wrap; }
-        .pill { position: relative; display: inline-block; }
-        .pill input { position: absolute; opacity: 0; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer; margin: 0; }
-        .pill span { display: inline-block; padding: 9px 22px; border: 2px solid #cbd5e1; border-radius: 30px; font-weight: 600; font-size: 0.92rem; color: var(--primary); background: #f8fafc; transition: all 0.2s; }
-        .pill input:checked + span { background: var(--primary); border-color: var(--primary); color: #fff; }
-        .pill input:focus-visible + span { outline: 3px solid var(--accent); outline-offset: 2px; }
-        .diag-result { display: none; margin-top: 25px; padding: 22px; border-radius: 8px; border-left: 5px solid var(--accent); background: #fff7ed; }
-        .diag-result.ok { background: #f0fdf4; border-left-color: #16a34a; }
-        .diag-result.show { display: block; }
-        .diag-result h3 { font-size: 1.15rem; margin-bottom: 8px; }
-        .diag-result p { margin-bottom: 14px; font-size: 0.95rem; }
-        .diag-result small { display: block; margin-top: 12px; color: #6b7280; }
 
         /* Acordeón FAQ */
         .faq-container { max-width: 1000px; margin: 0 auto; }
         .faq-item { background: var(--white); border-radius: 8px; margin-bottom: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.04); overflow: hidden; border: 1px solid #e2e8f0; }
-        .faq-question { width: 100%; text-align: left; background: none; border: none; padding: 20px 25px; font-family: 'Montserrat', sans-serif; font-size: 1.05rem; font-weight: 600; color: var(--primary); display: flex; justify-content: space-between; align-items: center; gap: 15px; cursor: pointer; transition: background 0.3s; }
+        .faq-question { width: 100%; text-align: left; background: none; border: none; padding: 20px 25px; font-family: 'Montserrat', sans-serif; font-size: 1.05rem; font-weight: 600; color: var(--primary); display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: background 0.3s; }
         .faq-question:hover { background-color: #f8fafc; }
         .faq-question i { color: var(--accent); transition: transform 0.3s; }
         .faq-question.active i { transform: rotate(180deg); }
         .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out, padding 0.3s; padding: 0 25px; background: #fafafa; color: #4a5568; font-size: 0.98rem; }
         .faq-answer p { margin-bottom: 15px; }
-        .faq-answer.show { padding: 15px 25px 20px; }
+        .faq-answer.show { max-height: 300px; padding: 15px 25px 20px; }
 
-        /* Formularios */
+        /* Formulario (PQRS) */
         .form-container { background: var(--white); padding: 45px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-top: 5px solid var(--primary); width: 100%; max-width: 1000px; margin: 0 auto; }
         .form-group { margin-bottom: 20px; text-align: left; }
         .form-group label { display: block; font-weight: 600; margin-bottom: 8px; color: var(--primary); font-size: 0.95rem; }
         .form-control { width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 5px; font-family: 'Open Sans', sans-serif; font-size: 1rem; transition: border-color 0.3s; background-color: #f8fafc; }
         .form-control:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 5px rgba(255, 122, 0, 0.2); background-color: #fff; }
         textarea.form-control { resize: vertical; height: 130px; }
-        .form-check { display: flex; gap: 10px; align-items: flex-start; font-size: 0.85rem; color: #4a5568; margin-bottom: 20px; }
-        .form-check input { margin-top: 4px; flex-shrink: 0; }
-        .form-msg { display: none; padding: 14px 16px; border-radius: 6px; margin-top: 18px; font-size: 0.95rem; text-align: left; }
-        .form-msg.ok { display: block; background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; }
-        .form-msg.err { display: block; background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
-        .form-msg a { color: inherit; font-weight: 700; }
-        .quote-side p { margin-bottom: 12px; }
-        .contact-lines { margin-top: 10px; }
-        .contact-lines p { margin-bottom: 8px; font-size: 0.97rem; }
-        .contact-lines a { color: var(--primary); font-weight: 600; text-decoration: none; }
-        .contact-lines a:hover { color: var(--accent); }
 
         /* Footer */
         footer { background: var(--primary); color: var(--white); text-align: center; padding: 45px 20px; margin-top: 80px; border-top: 4px solid var(--accent); width: 100%; }
         footer p { opacity: 0.85; font-size: 0.95rem; margin-bottom: 5px; }
-        .footer-links { display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px; }
-        .footer-links a { color: #fff; text-decoration: none; font-size: 0.92rem; opacity: 0.9; }
-        .footer-links a:hover { color: var(--accent); }
 
         /* ==========================================
-           MODAL DE RIESGOS
+           ESTILOS DEL MODAL DE RIESGOS (PERSUASIÓN)
            ========================================== */
-        .risk-modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(11, 36, 71, 0.85); backdrop-filter: blur(4px); z-index: 2000; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: opacity 0.4s ease, visibility 0.4s ease; padding: 15px; overflow-y: auto; }
-        .risk-modal-overlay.active { opacity: 1; visibility: visible; }
-        .risk-modal-content { background: var(--white); border-radius: 12px; max-width: 550px; width: 100%; max-height: 90vh; overflow-y: auto; box-shadow: 0 20px 50px rgba(0,0,0,0.3); position: relative; transform: translateY(30px); transition: transform 0.4s ease; border-top: 5px solid var(--accent); overflow-x: hidden; margin: auto 0; }
-        .risk-modal-overlay.active .risk-modal-content { transform: translateY(0); }
-        .risk-modal-close { position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 1.8rem; color: #fff; cursor: pointer; transition: color 0.3s; line-height: 1; z-index: 10; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; border-radius: 50%; }
-        .risk-modal-close:hover { color: var(--accent); background: rgba(255,255,255,0.1); }
-        .risk-modal-header { background: var(--primary); color: var(--white); padding: 25px 50px 20px 25px; text-align: center; position: relative; }
-        .risk-modal-header i { font-size: 2.5rem; color: var(--accent); margin-bottom: 10px; display: block; }
-        .risk-modal-header h3 { color: var(--white); font-size: 1.4rem; margin: 0; line-height: 1.3; }
-        .risk-modal-body { padding: 25px 30px 30px; }
-        .risk-modal-body > p { font-size: 0.95rem; color: #4a5568; margin-bottom: 20px; text-align: center; line-height: 1.5; }
-        .risk-list { list-style: none; margin: 0 0 25px 0; padding: 0; }
-        .risk-list li { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 15px; font-size: 0.95rem; color: var(--dark); line-height: 1.5; }
-        .risk-list li i { color: #dc2626; font-size: 1.1rem; margin-top: 3px; flex-shrink: 0; }
-        .risk-list li strong { color: var(--primary); }
-        .risk-cta-text { background: #fff7ed; border-left: 4px solid var(--accent); padding: 15px; border-radius: 4px; font-size: 0.95rem; color: var(--primary); margin-bottom: 20px; text-align: center; line-height: 1.5; }
-        .risk-modal-btn { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 14px; font-size: 1.05rem; box-shadow: 0 4px 15px rgba(255, 122, 0, 0.3); }
-        .risk-modal-btn-alt { background: transparent; color: var(--primary); border: 2px solid var(--primary); box-shadow: none; margin-top: 10px; padding: 11px; font-size: 0.98rem; }
-        .risk-modal-btn-alt:hover { background: var(--primary); color: #fff; }
+        .risk-modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(11, 36, 71, 0.85);
+            backdrop-filter: blur(4px);
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.4s ease, visibility 0.4s ease;
+            padding: 15px;
+            overflow-y: auto;
+        }
+
+        .risk-modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .risk-modal-content {
+            background: var(--white);
+            border-radius: 12px;
+            max-width: 550px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+            position: relative;
+            transform: translateY(30px);
+            transition: transform 0.4s ease;
+            border-top: 5px solid var(--accent);
+            overflow-x: hidden;
+            margin: auto 0;
+        }
+
+        .risk-modal-overlay.active .risk-modal-content {
+            transform: translateY(0);
+        }
+
+        .risk-modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 1.8rem;
+            color: #999;
+            cursor: pointer;
+            transition: color 0.3s;
+            line-height: 1;
+            z-index: 10;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+
+        .risk-modal-close:hover {
+            color: var(--primary);
+            background: rgba(0,0,0,0.05);
+        }
+
+        .risk-modal-header {
+            background: var(--primary);
+            color: var(--white);
+            padding: 25px 50px 20px 25px;
+            text-align: center;
+            position: relative;
+        }
+
+        .risk-modal-header i {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .risk-modal-header h3 {
+            color: var(--white);
+            font-size: 1.4rem;
+            margin: 0;
+            line-height: 1.3;
+        }
+
+        .risk-modal-body {
+            padding: 25px 30px 30px;
+        }
+
+        .risk-modal-body > p {
+            font-size: 0.95rem;
+            color: #4a5568;
+            margin-bottom: 20px;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .risk-list {
+            list-style: none;
+            margin: 0 0 25px 0;
+            padding: 0;
+        }
+
+        .risk-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+            color: var(--dark);
+            line-height: 1.5;
+        }
+
+        .risk-list li i {
+            color: #dc2626;
+            font-size: 1.1rem;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        .risk-list li strong {
+            color: var(--primary);
+        }
+
+        .risk-cta-text {
+            background: #fff7ed;
+            border-left: 4px solid var(--accent);
+            padding: 15px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .risk-modal-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            padding: 14px;
+            font-size: 1.05rem;
+            box-shadow: 0 4px 15px rgba(255, 122, 0, 0.3);
+        }
 
         /* Botón Flotante de Riesgos */
-        .risk-floating-btn { position: fixed; bottom: 100px; left: 20px; background: var(--primary); color: var(--white); border: 2px solid var(--accent); border-radius: 50px; padding: 12px 20px; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 0.9rem; cursor: pointer; box-shadow: 0 4px 15px rgba(0,0,0,0.2); z-index: 99; display: flex; align-items: center; gap: 8px; transition: all 0.3s ease; opacity: 0; visibility: hidden; transform: translateX(-20px); }
-        .risk-floating-btn.show { opacity: 1; visibility: visible; transform: translateX(0); }
-        .risk-floating-btn:hover { background: var(--accent); transform: translateX(5px); }
-        .risk-floating-btn i { color: var(--accent); }
-        .risk-floating-btn:hover i { color: var(--white); }
+        .risk-floating-btn {
+            position: fixed;
+            bottom: 100px; 
+            left: 20px;
+            background: var(--primary);
+            color: var(--white);
+            border: 2px solid var(--accent);
+            border-radius: 50px;
+            padding: 12px 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            z-index: 99;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateX(-20px);
+        }
+
+        .risk-floating-btn.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(0);
+        }
+
+        .risk-floating-btn:hover {
+            background: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .risk-floating-btn i {
+            color: var(--accent);
+        }
+        .risk-floating-btn:hover i {
+            color: var(--white);
+        }
 
         /* Adaptabilidad Móvil */
         @media(max-width: 992px) {
             .grid-2 { grid-template-columns: 1fr; gap: 30px; }
-            .hero h1 { font-size: 2.1rem; }
+            .hero h1 { font-size: 2.2rem; }
             section { padding: 0 20px; }
-            .trust-wrap { padding: 0 20px; }
             .nav-container { padding: 15px 20px; }
-            .trust-strip { grid-template-columns: 1fr 1fr; }
-            .trust-item:nth-child(2) { border-right: none; }
-            .trust-item:nth-child(-n+2) { border-bottom: 1px solid #e8ecf2; }
-            .steps { grid-template-columns: 1fr 1fr; }
         }
 
         @media(max-width: 768px) {
             .menu-toggle { display: block; }
-            nav ul { display: none; flex-direction: column; position: absolute; top: 75px; left: 0; width: 100%; background: var(--white); box-shadow: 0 10px 15px rgba(0,0,0,0.1); padding: 25px 0; text-align: center; }
+            nav ul { 
+                display: none; 
+                flex-direction: column; 
+                position: absolute; 
+                top: 75px; 
+                left: 0; 
+                width: 100%; 
+                background: var(--white); 
+                box-shadow: 0 10px 15px rgba(0,0,0,0.1); 
+                padding: 25px 0;
+                text-align: center;
+            }
             nav ul.active { display: flex; }
             nav ul li { margin: 12px 0; }
             .form-container { padding: 25px 20px; }
-            .diag-card { padding: 25px 20px; }
-            .section-title h2 { font-size: 1.8rem; }
+            .whatsapp-float { bottom: 20px; right: 20px; width: 55px; height: 55px; font-size: 28px; }
             .logo-img { height: 35px; }
-
-            /* Barra de contacto fija inferior */
-            body { padding-bottom: 68px; }
-            .whatsapp-float { display: none; }
-            .mobile-cta-bar { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 150; background: var(--white); box-shadow: 0 -2px 12px rgba(0,0,0,0.15); padding: 8px 10px calc(8px + env(safe-area-inset-bottom)); gap: 8px; }
-            .mobile-cta-bar a { flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 12px; border-radius: 6px; font-weight: 700; font-size: 0.95rem; text-decoration: none; color: #fff; }
-            .mobile-cta-bar .mcb-call { background: var(--primary); }
-            .mobile-cta-bar .mcb-wa { background: var(--whatsapp); }
-
-            /* Ajustes modal móvil */
-            .risk-modal-overlay { padding: 10px; align-items: flex-start; padding-top: 20px; }
-            .risk-modal-content { max-height: 95vh; margin: 0; border-radius: 10px; }
-            .risk-modal-header { padding: 20px 45px 15px 20px; }
-            .risk-modal-header i { font-size: 2rem; }
-            .risk-modal-header h3 { font-size: 1.15rem; }
-            .risk-modal-body { padding: 20px; }
-            .risk-modal-body > p { font-size: 0.9rem; margin-bottom: 15px; }
-            .risk-list li { font-size: 0.88rem; margin-bottom: 12px; gap: 10px; }
-            .risk-list li i { font-size: 1rem; margin-top: 2px; }
-            .risk-cta-text { font-size: 0.88rem; padding: 12px; margin-bottom: 15px; }
-            .risk-modal-btn { padding: 12px; font-size: 0.95rem; }
-            .risk-floating-btn { bottom: 80px; left: 15px; padding: 10px 15px; font-size: 0.8rem; }
-            .risk-floating-btn span { display: none; }
-            .risk-floating-btn i { font-size: 1.2rem; }
-        }
-
-        @media(max-width: 560px) {
-            .steps { grid-template-columns: 1fr; }
+            
+            /* Ajustes modal móvil MEJORADOS */
+            .risk-modal-overlay {
+                padding: 10px;
+                align-items: flex-start;
+                padding-top: 20px;
+            }
+            
+            .risk-modal-content {
+                max-height: 95vh;
+                margin: 0;
+                border-radius: 10px;
+            }
+            
+            .risk-modal-header {
+                padding: 20px 45px 15px 20px;
+            }
+            
+            .risk-modal-header i {
+                font-size: 2rem;
+            }
+            
+            .risk-modal-header h3 {
+                font-size: 1.15rem;
+            }
+            
+            .risk-modal-body {
+                padding: 20px;
+            }
+            
+            .risk-modal-body > p {
+                font-size: 0.9rem;
+                margin-bottom: 15px;
+            }
+            
+            .risk-list li {
+                font-size: 0.88rem;
+                margin-bottom: 12px;
+                gap: 10px;
+            }
+            
+            .risk-list li i {
+                font-size: 1rem;
+                margin-top: 2px;
+            }
+            
+            .risk-cta-text {
+                font-size: 0.88rem;
+                padding: 12px;
+                margin-bottom: 15px;
+            }
+            
+            .risk-modal-btn {
+                padding: 12px;
+                font-size: 0.95rem;
+            }
+            
+            .risk-floating-btn { 
+                bottom: 90px; 
+                left: 15px; 
+                padding: 10px 15px; 
+                font-size: 0.8rem;
+            }
+            
+            .risk-floating-btn span {
+                display: none;
+            }
+            
+            .risk-floating-btn i {
+                font-size: 1.2rem;
+            }
         }
 
         @media(max-width: 480px) {
-            .risk-modal-header h3 { font-size: 1.05rem; }
-            .risk-modal-body { padding: 18px; }
-            .risk-list li { font-size: 0.85rem; }
-            .hero { padding: 70px 20px 80px; }
-            .hero h1 { font-size: 1.7rem; }
-            .hero p { font-size: 1rem; }
-            .hero-actions .btn { width: 100%; }
-            .trust-strip { grid-template-columns: 1fr; }
-            .trust-item { border-right: none; border-bottom: 1px solid #e8ecf2; }
-            .trust-item:last-child { border-bottom: none; }
-            .faq-question { font-size: 0.98rem; padding: 18px 18px; }
-            .faq-answer { padding: 0 18px; }
-            .faq-answer.show { padding: 14px 18px 18px; }
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-            html { scroll-behavior: auto; }
-            * { transition: none !important; }
+            .risk-modal-header h3 {
+                font-size: 1.05rem;
+            }
+            
+            .risk-modal-body {
+                padding: 18px;
+            }
+            
+            .risk-list li {
+                font-size: 0.85rem;
+            }
+            
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
 <body>
 
-    <!-- BOTÓN FLOTANTE DE WHATSAPP (escritorio) -->
-    <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20requiero%20información%20sobre%20inspecciones%20y%20servicios%20de%20Altas%20Verificaciones%20en%20Seguridad" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Soporte por WhatsApp" data-cta="float-wa">
+    <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+    <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20requiero%20información%20sobre%20inspecciones%20y%20servicios%20de%20Altas%20Verificaciones%20en%20Seguridad" class="whatsapp-float" target="_blank" aria-label="Soporte por WhatsApp">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 
-    <!-- BARRA DE CONTACTO FIJA (móvil) -->
-    <div class="mobile-cta-bar">
-        <a href="tel:+573153655177" class="mcb-call" data-cta="mobile-call"><i class="fa-solid fa-phone"></i> Llamar</a>
-        <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20quiero%20cotizar%20una%20inspección%20con%20Altas%20Verificaciones%20en%20Seguridad" class="mcb-wa" target="_blank" rel="noopener" data-cta="mobile-wa"><i class="fa-brands fa-whatsapp"></i> Cotizar</a>
-    </div>
-
-    <!-- MODAL DE RIESGOS -->
-    <div id="riskModal" class="risk-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="riskTitle">
+    <!-- MODAL DE RIESGOS (PERSUASIÓN) -->
+    <div id="riskModal" class="risk-modal-overlay">
         <div class="risk-modal-content">
             <button class="risk-modal-close" id="closeRiskModal" aria-label="Cerrar ventana">&times;</button>
             <div class="risk-modal-header">
                 <i class="fa-solid fa-triangle-exclamation"></i>
-                <h3 id="riskTitle">¿Su estación está al día con la Resolución 40198?</h3>
+                <h3>¿Sabe cuánto le cuesta NO estar al día?</h3>
             </div>
             <div class="risk-modal-body">
-                <p>Una prueba de hermeticidad vencida o una inspección pendiente puede salir mucho más cara que hacerlas a tiempo:</p>
+                <p>El incumplimiento de la <strong>Resolución 40198</strong> y la falta de pruebas de hermeticidad exponen su Estación de Servicio a riesgos críticos:</p>
                 <ul class="risk-list">
-                    <li><i class="fa-solid fa-ban"></i> <span><strong>Sanciones y requerimientos:</strong> las autoridades competentes pueden sancionar a las estaciones que no cumplen el reglamento técnico.</span></li>
-                    <li><i class="fa-solid fa-fire"></i> <span><strong>Fugas sin detectar:</strong> una fuga a tiempo es un problema técnico; una fuga ignorada es un riesgo para las personas y las instalaciones.</span></li>
-                    <li><i class="fa-solid fa-store-slash"></i> <span><strong>Operación en riesgo:</strong> no poder demostrar la conformidad de la estación puede traer restricciones o interrupciones en el negocio.</span></li>
-                    <li><i class="fa-solid fa-water"></i> <span><strong>Costos ambientales:</strong> remediar suelos y aguas subterráneas puede ser muy costoso.</span></li>
+                    <li><i class="fa-solid fa-ban"></i> <strong>Multas Millonarias:</strong> Sanciones de autoridades ambientales y la SIC por incumplimiento normativo.</li>
+                    <li><i class="fa-solid fa-fire"></i> <strong>Riesgo Catastrófico:</strong> Fugas no detectadas que pueden derivar en incendios, explosiones y pérdida de vidas.</li>
+                    <li><i class="fa-solid fa-store-slash"></i> <strong>Cierre Inmediato:</strong> Suspensión o revocatoria de su licencia de funcionamiento.</li>
+                    <li><i class="fa-solid fa-water"></i> <strong>Pasivo Ambiental:</strong> Costos de remediación de suelos y aguas subterráneas impagables.</li>
                 </ul>
-                <p class="risk-cta-text">Prevenir casi siempre cuesta menos que corregir. <strong>Revise hoy el estado de su estación, sin compromiso.</strong></p>
-                <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20quiero%20evitar%20riesgos%20y%20solicitar%20una%20inspección%20de%20mi%20Estación%20de%20Servicio" class="btn btn-wa risk-modal-btn" target="_blank" rel="noopener" data-cta="modal-wa">
+                <p class="risk-cta-text">No espere a que ocurra una contingencia. <strong>Proteja su inversión, su personal y su operación hoy mismo.</strong></p>
+                <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20quiero%20evitar%20riesgos%20y%20solicitar%20una%20inspección%20de%20mi%20Estación%20de%20Servicio" class="btn risk-modal-btn" target="_blank">
                     <i class="fa-brands fa-whatsapp"></i> Solicitar Inspección Ahora
-                </a>
-                <a href="#autodiagnostico" class="btn risk-modal-btn risk-modal-btn-alt" id="riskDiagLink" data-cta="modal-diag">
-                    Hacer el autodiagnóstico (1 minuto)
                 </a>
             </div>
         </div>
     </div>
 
     <!-- BOTÓN FLOTANTE ALTERNATIVO DE RIESGOS -->
-    <button id="riskFloatingBtn" class="risk-floating-btn" title="Conozca los riesgos de no estar al día">
+    <button id="riskFloatingBtn" class="risk-floating-btn" title="Conozca los riesgos de no estar acreditado">
         <i class="fa-solid fa-shield-halved"></i>
         <span>Evite Riesgos</span>
     </button>
@@ -353,13 +478,13 @@
     <header>
         <div class="nav-container">
             <a href="#inicio" class="brand-container">
-                <img src="logo.png" alt="Logo Altas Verificaciones en Seguridad" class="logo-img" onerror="this.style.display='none'">
+                <img src="logo.png" alt="Logo Altas Verificaciones" class="logo-img">
                 <div class="logo-text">
                     ALTAS VERIFICACIONES EN SEGURIDAD
                     <span>AV.S S.A.S | ISO/IEC 17020:2012</span>
                 </div>
             </a>
-            <button class="menu-toggle" id="menu-btn" aria-label="Abrir menú" aria-expanded="false">
+            <button class="menu-toggle" id="menu-btn" aria-label="Abrir menú">
                 <i class="fa-solid fa-bars"></i>
             </button>
             <nav>
@@ -370,35 +495,18 @@
                     <li><a href="#servicios">Servicios</a></li>
                     <li><a href="#faq">FAQ</a></li>
                     <li><a href="#pqrs" style="color: var(--accent);">Canal PQRS</a></li>
-                    <li><a href="#cotizar" class="btn" style="padding: 8px 18px; font-size: 0.9rem; color: #fff;" data-cta="nav-cotizar">Cotizar</a></li>
+                    <li><a href="#contacto" class="btn" style="padding: 8px 18px; font-size: 0.9rem; color: #fff;">Contacto</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- HERO -->
     <section id="inicio" class="hero" style="margin:0; max-width:100%;">
         <div class="badge-onac"><i class="fa-solid fa-certificate"></i> Organismo Acreditado ONAC | Código: 24-OIN-047</div>
-        <h1>Inspección y pruebas de hermeticidad para su Estación de Servicio, con respaldo ONAC</h1>
-        <p>Cumpla la Resolución 40198 de 2021 con un organismo de inspección acreditado: pruebas de hermeticidad a tanques y tuberías e inspección de Estaciones de Servicio Automotriz.</p>
-        <div class="hero-actions">
-            <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20quiero%20cotizar%20una%20inspección%20con%20Altas%20Verificaciones%20en%20Seguridad" class="btn btn-wa" target="_blank" rel="noopener" data-cta="hero-wa">
-                <i class="fa-brands fa-whatsapp"></i> Cotizar por WhatsApp
-            </a>
-            <a href="#autodiagnostico" class="btn btn-outline" data-cta="hero-diag">¿Mi estación está al día?</a>
-        </div>
-        <p class="hero-note"><i class="fa-solid fa-circle-check"></i> Cotización sin compromiso · Atención directa</p>
+        <h1>ALTAS VERIFICACIONES EN SEGURIDAD S.A.S</h1>
+        <p>Pruebas de hermeticidad a tanques subterráneos y tuberías e Inspección a Estaciones de Servicio Automotriz con cumplimiento del 100% a la Resolución 40198.</p>
+        <a href="#servicios" class="btn">Conocer Servicios</a>
     </section>
-
-    <!-- FRANJA DE CONFIANZA -->
-    <div class="trust-wrap">
-        <div class="trust-strip">
-            <div class="trust-item"><i class="fa-solid fa-certificate"></i><div><strong>Acreditado ONAC</strong><span>Código 24-OIN-047</span></div></div>
-            <div class="trust-item"><i class="fa-solid fa-award"></i><div><strong>ISO/IEC 17020:2012</strong><span>Organismo de inspección</span></div></div>
-            <div class="trust-item"><i class="fa-solid fa-file-shield"></i><div><strong>Resolución 40198</strong><span>de 2021 · MinEnergía</span></div></div>
-            <div class="trust-item"><i class="fa-solid fa-gauge-high"></i><div><strong>Trazabilidad metrológica</strong><span>En los equipos de prueba</span></div></div>
-        </div>
-    </div>
 
     <section id="quienes-somos">
         <div class="section-title">
@@ -440,47 +548,6 @@
                 <p>Evaluaciones alineadas estrictamente al reglamento técnico de la <strong>Resolución 40198 de 2021</strong> del Ministerio de Minas y Energía.</p>
             </div>
         </div>
-        <p style="text-align:center; margin-top: 28px;">
-            <i class="fa-solid fa-magnifying-glass" style="color: var(--accent);"></i>
-            No tiene que creernos: <a class="link-accent" href="https://onac.org.co/certificados/24-OIN-047.pdf" target="_blank" rel="noopener" data-cta="verify-onac">verifique nuestra acreditación directamente en ONAC</a>.
-        </p>
-    </section>
-
-    <!-- POR QUÉ ELEGIRNOS -->
-    <section id="por-que">
-        <div class="section-title">
-            <h2>¿Por qué elegirnos?</h2>
-        </div>
-        <div class="why-grid">
-            <div class="why-item">
-                <i class="fa-solid fa-circle-check"></i>
-                <div>
-                    <h3>Resultados con validez oficial</h3>
-                    <p>Nuestros dictámenes están respaldados por una acreditación ONAC verificable, no por una simple declaración nuestra.</p>
-                </div>
-            </div>
-            <div class="why-item">
-                <i class="fa-solid fa-scale-balanced"></i>
-                <div>
-                    <h3>Imparcialidad real</h3>
-                    <p>Inspeccionamos con objetividad: el resultado lo define la norma y la evidencia técnica, no la conveniencia.</p>
-                </div>
-            </div>
-            <div class="why-item">
-                <i class="fa-solid fa-gauge-high"></i>
-                <div>
-                    <h3>Equipos y personal competentes</h3>
-                    <p>Instrumentos con trazabilidad metrológica y un equipo técnico calificado para cada prueba.</p>
-                </div>
-            </div>
-            <div class="why-item">
-                <i class="fa-solid fa-layer-group"></i>
-                <div>
-                    <h3>Todo en un solo proveedor</h3>
-                    <p>Inspección de la estación, hermeticidad de tanques y tuberías y pruebas hidrostáticas con un único contacto.</p>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!-- SECCIÓN DE SERVICIOS -->
@@ -492,7 +559,6 @@
             <!-- Servicio 1 -->
             <div class="card">
                 <div>
-                    <span class="tag">Obligatorio · Res. 40198</span>
                     <h3>01. Inspección de Estaciones de Servicio Automotriz</h3>
                     <p>Servicio de evaluación de la conformidad de carácter obligatorio conforme a la <strong>Resolución 40198 de 2021</strong> (que modifica la Resolución 40405 de 2020) del Ministerio de Minas y Energía.</p>
                     <ul class="check-list">
@@ -501,15 +567,14 @@
                         <li>Emisión de informe y certificado de conformidad acreditado ONAC.</li>
                     </ul>
                 </div>
-                <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20deseo%20solicitar%20el%20servicio%20de%20Inspección%20de%20Estaciones%20de%20Servicio%20Automotriz" class="btn-whatsapp-service" target="_blank" rel="noopener" data-cta="svc1-wa">
-                    <i class="fa-brands fa-whatsapp"></i> Cotizar este servicio
+                <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20deseo%20solicitar%20el%20servicio%20de%20Inspección%20de%20Estaciones%20de%20Servicio%20Automotriz" class="btn-whatsapp-service" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Solicitar Servicio
                 </a>
             </div>
 
             <!-- Servicio 2 -->
             <div class="card">
                 <div>
-                    <span class="tag">Res. 40198 · NFPA 30</span>
                     <h3>02. Pruebas de Hermeticidad a Tanques y Tuberías</h3>
                     <p>Ensayo No Destructivo para detectar caudales de fuga según la <strong>Norma NFPA 30</strong> y el reglamento técnico de la <strong>Resolución 40198 de 2021</strong>.</p>
                     <ul class="check-list">
@@ -518,15 +583,14 @@
                         <li>Equipos con trazabilidad metrológica y personal competente.</li>
                     </ul>
                 </div>
-                <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20deseo%20solicitar%20el%20servicio%20de%20Pruebas%20de%20Hermeticidad%20a%20Tanques%20y%20Tuberías" class="btn-whatsapp-service" target="_blank" rel="noopener" data-cta="svc2-wa">
-                    <i class="fa-brands fa-whatsapp"></i> Cotizar este servicio
+                <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20deseo%20solicitar%20el%20servicio%20de%20Pruebas%20de%20Hermeticidad%20a%20Tanques%20y%20Tuberías" class="btn-whatsapp-service" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Solicitar Servicio
                 </a>
             </div>
 
             <!-- Servicio 3 -->
             <div class="card">
                 <div>
-                    <span class="tag neutral">Ámbito voluntario</span>
                     <h3>03. Pruebas Hidrostáticas en Tanques y Tuberías</h3>
                     <p>Actividad correspondiente al <strong>ámbito voluntario</strong> desarrollada con altos estándares de seguridad industrial y metrología.</p>
                     <ul class="check-list">
@@ -535,180 +599,12 @@
                         <li>Respaldo técnico especializado.</li>
                     </ul>
                 </div>
-                <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20deseo%20solicitar%20el%20servicio%20de%20Pruebas%20Hidrostáticas" class="btn-whatsapp-service" target="_blank" rel="noopener" data-cta="svc3-wa">
-                    <i class="fa-brands fa-whatsapp"></i> Cotizar este servicio
+                <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20deseo%20solicitar%20el%20servicio%20de%20Pruebas%20Hidrostáticas" class="btn-whatsapp-service" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Solicitar Servicio
                 </a>
             </div>
         </div>
     </section>
-
-    <!-- CÓMO TRABAJAMOS -->
-    <section id="proceso">
-        <div class="section-title">
-            <h2>Así de simple es el proceso</h2>
-        </div>
-        <div class="steps">
-            <div class="step">
-                <div class="step-num">1</div>
-                <h3>Cuéntenos su caso</h3>
-                <p>Escríbanos por WhatsApp o use el formulario: tipo de estación, ciudad y tanques.</p>
-            </div>
-            <div class="step">
-                <div class="step-num">2</div>
-                <h3>Evaluación previa</h3>
-                <p>Revisamos con la lista de chequeo normativa para anticipar lo que se debe corregir.</p>
-            </div>
-            <div class="step">
-                <div class="step-num">3</div>
-                <h3>Visita y pruebas</h3>
-                <p>Inspección técnica integral y pruebas en campo con equipos con trazabilidad metrológica.</p>
-            </div>
-            <div class="step">
-                <div class="step-num">4</div>
-                <h3>Informe y certificado</h3>
-                <p>Recibe el informe y, cuando la inspección resulta conforme, el certificado acreditado ONAC.</p>
-            </div>
-        </div>
-        <p style="text-align:center; margin-top: 30px;">
-            <a href="#cotizar" class="btn" data-cta="process-cotizar">Empezar ahora</a>
-        </p>
-    </section>
-
-    <!-- AUTODIAGNÓSTICO -->
-    <section id="autodiagnostico">
-        <div class="section-title">
-            <h2>¿Su estación está al día? Autodiagnóstico</h2>
-        </div>
-        <div class="diag-card">
-            <p class="diag-intro">Responda 4 preguntas rápidas y sepa si le conviene una evaluación previa. Es orientativo y no reemplaza una inspección.</p>
-            <form id="diagForm" novalidate>
-                <fieldset class="diag-q" data-flag="no,ns" data-short="Certificado de Conformidad vigente">
-                    <legend>1. ¿Su estación cuenta con el Certificado de Conformidad vigente?</legend>
-                    <div class="pills">
-                        <label class="pill"><input type="radio" name="q1" value="si"><span>Sí</span></label>
-                        <label class="pill"><input type="radio" name="q1" value="no"><span>No</span></label>
-                        <label class="pill"><input type="radio" name="q1" value="ns"><span>No sé</span></label>
-                    </div>
-                </fieldset>
-                <fieldset class="diag-q" data-flag="no,ns" data-short="Pruebas de hermeticidad al día">
-                    <legend>2. ¿Las pruebas de hermeticidad de tanques y tuberías están al día según la periodicidad del reglamento técnico?</legend>
-                    <div class="pills">
-                        <label class="pill"><input type="radio" name="q2" value="si"><span>Sí</span></label>
-                        <label class="pill"><input type="radio" name="q2" value="no"><span>No</span></label>
-                        <label class="pill"><input type="radio" name="q2" value="ns"><span>No sé</span></label>
-                    </div>
-                </fieldset>
-                <fieldset class="diag-q" data-flag="no,ns" data-short="Informes y registros disponibles">
-                    <legend>3. ¿Tiene a mano los informes y registros de las pruebas e inspecciones anteriores?</legend>
-                    <div class="pills">
-                        <label class="pill"><input type="radio" name="q3" value="si"><span>Sí</span></label>
-                        <label class="pill"><input type="radio" name="q3" value="no"><span>No</span></label>
-                        <label class="pill"><input type="radio" name="q3" value="ns"><span>No sé</span></label>
-                    </div>
-                </fieldset>
-                <fieldset class="diag-q" data-flag="si,ns" data-short="Modificaciones desde la última inspección">
-                    <legend>4. ¿Ha remodelado o modificado la estación (tanques, líneas, islas) desde su última inspección?</legend>
-                    <div class="pills">
-                        <label class="pill"><input type="radio" name="q4" value="si"><span>Sí</span></label>
-                        <label class="pill"><input type="radio" name="q4" value="no"><span>No</span></label>
-                        <label class="pill"><input type="radio" name="q4" value="ns"><span>No sé</span></label>
-                    </div>
-                </fieldset>
-                <div style="text-align:center;">
-                    <button type="submit" class="btn" data-cta="diag-submit">Ver mi resultado</button>
-                </div>
-            </form>
-            <div id="diagResult" class="diag-result" role="status" aria-live="polite"></div>
-        </div>
-    </section>
-
-    <!-- COTIZACIÓN RÁPIDA -->
-    <section id="cotizar">
-        <div class="section-title">
-            <h2>Solicite su cotización</h2>
-        </div>
-        <div class="grid-2">
-            <div class="card quote-side">
-                <div>
-                    <h3>Cuéntenos qué necesita y le respondemos por WhatsApp</h3>
-                    <p>Complete el formulario en menos de un minuto: al enviarlo se abrirá WhatsApp con su solicitud lista para enviar, y nos llegará una copia para darle seguimiento.</p>
-                    <ul class="check-list">
-                        <li>Cotización sin compromiso.</li>
-                        <li>Le orientamos sobre qué requisitos aplican a su estación.</li>
-                        <li>Atención directa con el equipo técnico.</li>
-                    </ul>
-                </div>
-                <div class="contact-lines">
-                    <p><i class="fa-brands fa-whatsapp" style="color: var(--whatsapp);"></i> <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20requiero%20información%20sobre%20inspecciones" target="_blank" rel="noopener" data-cta="quote-side-wa">+57 315 365 5177</a></p>
-                    <p><i class="fa-solid fa-phone" style="color: var(--accent);"></i> <a href="tel:+573153655177" data-cta="quote-side-call">Llamar ahora</a></p>
-                    <p><i class="fa-solid fa-envelope" style="color: var(--accent);"></i> <a href="mailto:administrativo@avssas.com" data-cta="quote-side-mail">administrativo@avssas.com</a></p>
-                </div>
-            </div>
-
-            <div class="form-container" style="max-width:none;">
-                <form id="quoteForm">
-                    <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
-                    <div class="form-group">
-                        <label for="q_nombre">Su nombre *</label>
-                        <input type="text" id="q_nombre" name="nombre" class="form-control" required placeholder="Nombre y apellido">
-                    </div>
-                    <div class="form-group">
-                        <label for="q_telefono">WhatsApp o teléfono *</label>
-                        <input type="tel" id="q_telefono" name="telefono" class="form-control" required placeholder="Ej. 3001234567">
-                    </div>
-                    <div class="form-group">
-                        <label for="q_empresa">Estación de servicio / empresa</label>
-                        <input type="text" id="q_empresa" name="empresa" class="form-control" placeholder="Nombre de la estación (opcional)">
-                    </div>
-                    <div class="form-group">
-                        <label for="q_ciudad">Ciudad o municipio *</label>
-                        <input type="text" id="q_ciudad" name="ciudad" class="form-control" required placeholder="¿Dónde está ubicada la estación?">
-                    </div>
-                    <div class="form-group">
-                        <label for="q_servicio">¿Qué necesita? *</label>
-                        <select id="q_servicio" name="servicio" class="form-control" required>
-                            <option value="">Seleccione una opción...</option>
-                            <option value="Inspección de Estación de Servicio">Inspección de Estación de Servicio</option>
-                            <option value="Pruebas de hermeticidad (tanques y tuberías)">Pruebas de hermeticidad (tanques y tuberías)</option>
-                            <option value="Pruebas hidrostáticas">Pruebas hidrostáticas</option>
-                            <option value="No estoy seguro, necesito asesoría">No estoy seguro, necesito asesoría</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="q_tanques">Número de tanques o capacidad total aproximada</label>
-                        <input type="text" id="q_tanques" name="tanques" class="form-control" placeholder="Ej. 3 tanques, 40.000 litros (opcional)">
-                    </div>
-                    <label class="form-check">
-                        <input type="checkbox" name="autorizacion" required>
-                        <span>Autorizo el tratamiento de mis datos personales para atender esta solicitud, conforme a la Ley 1581 de 2012.</span>
-                    </label>
-                    <button type="submit" class="btn btn-wa" style="width:100%;" data-cta="quote-submit">
-                        <i class="fa-brands fa-whatsapp"></i> Enviar y abrir WhatsApp
-                    </button>
-                    <div id="quoteMsg" class="form-msg" role="status" aria-live="polite"></div>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!--
-    =====================================================================
-    PRUEBA SOCIAL (agregar SOLO con datos reales; luego quitar este comentario)
-    Es lo que más suele aumentar contactos. Ideas: logos de clientes
-    (con su permiso), testimonios con nombre y cargo, cantidad real de
-    estaciones inspeccionadas, años de experiencia.
-
-    <section id="clientes">
-        <div class="section-title"><h2>Empresas que confían en nosotros</h2></div>
-        <div class="grid-3">
-            <div class="card">
-                <p>"Texto real del testimonio."</p>
-                <p><strong>Nombre del cliente</strong><br>Cargo, Estación / Empresa</p>
-            </div>
-        </div>
-    </section>
-    =====================================================================
-    -->
 
     <section id="faq">
         <div class="section-title">
@@ -716,7 +612,7 @@
         </div>
         <div class="faq-container">
             <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
+                <button class="faq-question">
                     ¿Qué respalda la validez técnica de los dictámenes emitidos?
                     <i class="fa-solid fa-chevron-down"></i>
                 </button>
@@ -726,17 +622,7 @@
             </div>
 
             <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    ¿Puedo verificar que su acreditación es real?
-                    <i class="fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Sí. La acreditación <strong>24-OIN-047</strong> es verificable en el sitio de ONAC, donde se publican los certificados y el alcance de los organismos acreditados. <a class="link-accent" href="https://onac.org.co/certificados/24-OIN-047.pdf" target="_blank" rel="noopener">Ver certificado en ONAC</a>.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
+                <button class="faq-question">
                     ¿Cuál es la normativa aplicable para las Estaciones de Servicio?
                     <i class="fa-solid fa-chevron-down"></i>
                 </button>
@@ -746,52 +632,12 @@
             </div>
 
             <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    Mi estación es nueva o fue remodelada, ¿también debo hacer pruebas?
-                    <i class="fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>El reglamento contempla pruebas de hermeticidad iniciales para estaciones nuevas o remodeladas, además de pruebas periódicas. Escríbanos y le indicamos qué aplica en el caso de su estación.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
+                <button class="faq-question">
                     ¿Qué capacidad máxima cubren las pruebas de hermeticidad en tanques superficiales?
                     <i class="fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
                     <p>Cubrimos pruebas en tanques subterráneos y tanques superficiales hasta un total de capacidad de todos los tanques de las instalaciones de 150.000 Litros.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    ¿Qué diferencia hay entre prueba de hermeticidad y prueba hidrostática?
-                    <i class="fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>La <strong>prueba de hermeticidad</strong> es un ensayo no destructivo para detectar caudales de fuga, conforme a NFPA 30 y la Resolución 40198. La <strong>prueba hidrostática</strong> corresponde al ámbito voluntario y aplica a tanques y tuberías de líquidos, gases o aire.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    ¿Qué recibo al finalizar el servicio?
-                    <i class="fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Un informe técnico con los resultados y, cuando la inspección resulta conforme, el certificado de conformidad acreditado ONAC.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question" aria-expanded="false">
-                    ¿Cómo solicito una cotización y qué información necesito?
-                    <i class="fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Escríbanos por WhatsApp o use el <a class="link-accent" href="#cotizar">formulario de cotización</a>. Con el tipo de estación, la ciudad, el número de tanques y su capacidad aproximada podemos orientarle de inmediato.</p>
                 </div>
             </div>
         </div>
@@ -804,13 +650,12 @@
         </div>
         <div class="form-container">
             <p style="text-align: center; margin-bottom: 30px; color: #555;">Dando cumplimiento a los requisitos de la norma ISO/IEC 17020:2012, ponemos a su disposición este canal oficial para Peticiones, Quejas, Reclamos y Sugerencias.</p>
-
-            <form id="pqrsForm" action="https://api.web3forms.com/submit" method="POST">
+            
+            <form action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="b093da6c-1c7e-47c4-9979-85004b33d6b1">
                 <input type="hidden" name="subject" value="Nueva PQRS recibida - Altas Verificaciones en Seguridad">
                 <input type="hidden" name="redirect" value="https://web3forms.com/success">
-                <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
-
+                
                 <div class="grid-2" style="gap: 20px;">
                     <div class="form-group">
                         <label for="nombre">Nombre o Razón Social *</label>
@@ -849,287 +694,100 @@
                     <textarea id="mensaje" name="message" class="form-control" required placeholder="Describa con claridad su solicitud..."></textarea>
                 </div>
 
-                <label class="form-check">
-                    <input type="checkbox" name="autorizacion" required>
-                    <span>Autorizo el tratamiento de mis datos personales para gestionar esta solicitud, conforme a la Ley 1581 de 2012.</span>
-                </label>
-
-                <div style="text-align: center; margin-top: 10px;">
-                    <button type="submit" class="btn" id="pqrsBtn" style="width: 100%; max-width: 320px;">Enviar PQRS</button>
+                <div style="text-align: center; margin-top: 30px;">
+                    <button type="submit" class="btn" style="width: 100%; max-width: 320px;">Enviar PQRS</button>
                 </div>
-                <div id="pqrsMsg" class="form-msg" role="status" aria-live="polite"></div>
             </form>
         </div>
     </section>
 
-    <section id="contacto">
+   <section id="contacto">
         <div class="section-title">
             <h2>Contacto</h2>
         </div>
         <div class="card" style="max-width: 800px; margin: 0 auto; text-align: center;">
             <h3>Estamos listos para atender sus requerimientos con total respaldo técnico</h3>
             <p style="margin-bottom: 20px;">Especialistas en Pruebas de hermeticidad para tanques y tuberías e Inspección para Estaciones de Servicio Automotriz bajo la Resolución 40198 de 2021.</p>
-            <p style="margin-bottom: 20px;">
-                <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20requiero%20información%20sobre%20inspecciones" class="btn btn-wa" target="_blank" rel="noopener" data-cta="contact-wa">
-                    <i class="fa-brands fa-whatsapp"></i> Escribirnos por WhatsApp
-                </a>
-            </p>
-            <p><strong>Teléfono / WhatsApp:</strong> <a href="tel:+573153655177" style="color: var(--primary); font-weight: 600; text-decoration: none;" data-cta="contact-call"><i class="fa-solid fa-phone"></i> +57 3153655177</a></p>
-            <p style="margin-top: 10px;"><strong>Correo electrónico:</strong> <a href="mailto:administrativo@avssas.com" style="color: var(--primary); font-weight: 600; text-decoration: none;" data-cta="contact-mail">administrativo@avssas.com</a></p>
+            <p><strong>Teléfono / WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20requiero%20información%20sobre%20inspecciones" target="_blank" style="color: var(--whatsapp); font-weight: 600; text-decoration: none;"><i class="fa-brands fa-whatsapp"></i> +57 3153655177</a></p>
+            <p style="margin-top: 10px;"><strong>Correo electrónico:</strong> administrativo@avssas.com</p>
             <p style="margin-top: 15px;"><strong>Organismo de Inspección Acreditado ONAC - Código 24-OIN-047 (ISO/IEC 17020:2012)</strong></p>
         </div>
     </section>
 
     <footer>
-        <div class="footer-links">
-            <a href="#servicios">Servicios</a>
-            <a href="#acreditacion">Acreditación</a>
-            <a href="#faq">Preguntas frecuentes</a>
-            <a href="#cotizar">Cotizar</a>
-            <a href="#pqrs">PQRS</a>
-        </div>
         <p>&copy; 2026 ALTAS VERIFICACIONES EN SEGURIDAD S.A.S. Todos los derechos reservados.</p>
         <p>Acreditado ISO/IEC 17020:2012 | ONAC Código 24-OIN-047</p>
     </footer>
 
     <!-- Scripts Interactivos -->
     <script>
-        (function () {
-            'use strict';
+        // Menú Móvil
+        const menuBtn = document.getElementById('menu-btn');
+        const navLinks = document.getElementById('nav-links');
 
-            const WA_NUMBER = '573153655177';
-            const WEB3_URL = 'https://api.web3forms.com/submit';
-            const WEB3_KEY = 'b093da6c-1c7e-47c4-9979-85004b33d6b1';
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
 
-            function waLink(text) {
-                return 'https://api.whatsapp.com/send?phone=' + WA_NUMBER + '&text=' + encodeURIComponent(text);
-            }
-
-            function showMsg(el, type, html) {
-                el.className = 'form-msg ' + type;
-                el.innerHTML = html;
-            }
-
-            // ---------- Medición de clics (se activa si hay Google Analytics o Meta Pixel) ----------
-            document.addEventListener('click', function (e) {
-                const el = e.target.closest('[data-cta]');
-                if (!el) return;
-                try {
-                    if (typeof window.gtag === 'function') window.gtag('event', 'cta_click', { cta: el.dataset.cta });
-                    if (typeof window.fbq === 'function') window.fbq('trackCustom', 'CTAClick', { cta: el.dataset.cta });
-                } catch (err) { /* sin medición */ }
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
             });
+        });
 
-            // ---------- Menú móvil ----------
-            const menuBtn = document.getElementById('menu-btn');
-            const navLinks = document.getElementById('nav-links');
-            menuBtn.addEventListener('click', function () {
-                const open = navLinks.classList.toggle('active');
-                menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
-            });
-            document.querySelectorAll('nav ul li a').forEach(function (link) {
-                link.addEventListener('click', function () {
-                    navLinks.classList.remove('active');
-                    menuBtn.setAttribute('aria-expanded', 'false');
-                });
-            });
+        // Acordeón FAQ
+        const faqQuestions = document.querySelectorAll('.faq-question');
 
-            // ---------- Acordeón FAQ ----------
-            const faqQuestions = document.querySelectorAll('.faq-question');
-            faqQuestions.forEach(function (question) {
-                question.addEventListener('click', function () {
-                    const answer = question.nextElementSibling;
-                    const open = question.classList.toggle('active');
-                    answer.classList.toggle('show', open);
-                    question.setAttribute('aria-expanded', open ? 'true' : 'false');
-                    answer.style.maxHeight = open ? (answer.scrollHeight + 60) + 'px' : '';
-                });
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                question.classList.toggle('active');
+                answer.classList.toggle('show');
             });
-            window.addEventListener('resize', function () {
-                document.querySelectorAll('.faq-answer.show').forEach(function (a) {
-                    a.style.maxHeight = (a.scrollHeight + 60) + 'px';
-                });
-            });
+        });
 
-            // ---------- Modal de riesgos (menos intrusivo) ----------
-            // Se muestra una sola vez por visita: al llegar a ~45% de la página,
-            // al intentar salir (escritorio) o tras 40 segundos. No interrumpe si el usuario está escribiendo.
-            const riskModal = document.getElementById('riskModal');
-            const closeRiskModal = document.getElementById('closeRiskModal');
-            const riskFloatingBtn = document.getElementById('riskFloatingBtn');
-            const SEEN_KEY = 'avs_risk_seen';
-            let lastFocus = null;
-            let autoShown = false;
+        // ==========================================
+        // LÓGICA DEL MODAL DE RIESGOS (PERSUASIÓN)
+        // ==========================================
+        const riskModal = document.getElementById('riskModal');
+        const closeRiskModal = document.getElementById('closeRiskModal');
+        const riskFloatingBtn = document.getElementById('riskFloatingBtn');
+        let modalClosedByUser = false;
 
-            function alreadySeen() {
-                try { return sessionStorage.getItem(SEEN_KEY) === '1'; } catch (e) { return false; }
-            }
-            function markSeen() {
-                try { sessionStorage.setItem(SEEN_KEY, '1'); } catch (e) { /* sin almacenamiento */ }
-            }
-            function openRisk() {
-                if (riskModal.classList.contains('active')) return;
-                lastFocus = document.activeElement;
+        // Mostrar modal automáticamente después de 5 segundos
+        setTimeout(() => {
+            if (!modalClosedByUser) {
                 riskModal.classList.add('active');
-                riskFloatingBtn.classList.remove('show');
-                document.body.style.overflow = 'hidden';
-                markSeen();
-                setTimeout(function () { closeRiskModal.focus(); }, 50);
             }
-            function closeRisk() {
+        }, 5000);
+
+        // Cerrar modal
+        closeRiskModal.addEventListener('click', () => {
+            riskModal.classList.remove('active');
+            modalClosedByUser = true;
+            // Mostrar el botón flotante alternativo después de cerrar
+            setTimeout(() => {
+                riskFloatingBtn.classList.add('show');
+            }, 500);
+        });
+
+        // Cerrar modal al hacer clic fuera del contenido (en el fondo oscuro)
+        riskModal.addEventListener('click', (e) => {
+            if (e.target === riskModal) {
                 riskModal.classList.remove('active');
-                document.body.style.overflow = '';
-                setTimeout(function () { riskFloatingBtn.classList.add('show'); }, 500);
-                if (lastFocus && typeof lastFocus.focus === 'function') lastFocus.focus();
+                modalClosedByUser = true;
+                setTimeout(() => {
+                    riskFloatingBtn.classList.add('show');
+                }, 500);
             }
-            function autoOpenRisk() {
-                if (autoShown || alreadySeen()) return;
-                const a = document.activeElement;
-                if (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)) return; // no interrumpir un formulario
-                autoShown = true;
-                openRisk();
-            }
+        });
 
-            window.addEventListener('scroll', function () {
-                const total = document.documentElement.scrollHeight - window.innerHeight;
-                if (total > 0 && window.scrollY / total > 0.45) autoOpenRisk();
-            }, { passive: true });
-            document.addEventListener('mouseout', function (e) {
-                if (!e.relatedTarget && e.clientY <= 0) autoOpenRisk();
-            });
-            setTimeout(autoOpenRisk, 40000);
-
-            closeRiskModal.addEventListener('click', closeRisk);
-            riskModal.addEventListener('click', function (e) { if (e.target === riskModal) closeRisk(); });
-            document.getElementById('riskDiagLink').addEventListener('click', closeRisk);
-            riskFloatingBtn.addEventListener('click', openRisk);
-            document.addEventListener('keydown', function (e) {
-                if (!riskModal.classList.contains('active')) return;
-                if (e.key === 'Escape') { closeRisk(); return; }
-                if (e.key === 'Tab') { // mantener el foco dentro del modal
-                    const f = riskModal.querySelectorAll('a[href], button');
-                    if (!f.length) return;
-                    const first = f[0], last = f[f.length - 1];
-                    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
-                    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
-                }
-            });
-
-            // ---------- Autodiagnóstico ----------
-            const diagForm = document.getElementById('diagForm');
-            const diagResult = document.getElementById('diagResult');
-            const LABELS = { si: 'Sí', no: 'No', ns: 'No sé' };
-
-            diagForm.addEventListener('submit', function (e) {
-                e.preventDefault();
-                let flags = 0, missing = false;
-                const resumen = [];
-                diagForm.querySelectorAll('.diag-q').forEach(function (q) {
-                    const sel = q.querySelector('input:checked');
-                    if (!sel) { missing = true; q.classList.add('missing'); return; }
-                    q.classList.remove('missing');
-                    if (q.dataset.flag.split(',').indexOf(sel.value) !== -1) flags++;
-                    resumen.push('- ' + q.dataset.short + ': ' + LABELS[sel.value]);
-                });
-                diagResult.className = 'diag-result show';
-                if (missing) {
-                    diagResult.innerHTML = '<p style="margin:0;">Por favor responda las 4 preguntas para ver su resultado.</p>';
-                    return;
-                }
-                const msg = 'Hola, hice el autodiagnóstico en su página.\nResultado: ' +
-                    (flags ? flags + (flags === 1 ? ' punto por revisar' : ' puntos por revisar') : 'sin puntos por revisar') +
-                    '.\n' + resumen.join('\n') + '\nQuisiera una evaluación previa de mi estación.';
-                if (flags === 0) {
-                    diagResult.className = 'diag-result show ok';
-                    diagResult.innerHTML =
-                        '<h3><i class="fa-solid fa-circle-check" style="color:#16a34a;"></i> Buen punto de partida</h3>' +
-                        '<p>Todo parece en orden, pero conviene confirmarlo con una evaluación previa antes de la inspección. Si tiene dudas, le ayudamos.</p>';
-                } else {
-                    diagResult.innerHTML =
-                        '<h3><i class="fa-solid fa-triangle-exclamation" style="color:var(--accent);"></i> Hay ' + flags + (flags === 1 ? ' punto' : ' puntos') + ' por revisar</h3>' +
-                        '<p>Una evaluación previa con lista de chequeo normativa permite identificar qué falta antes de la inspección. Escríbanos y le orientamos.</p>';
-                }
-                diagResult.innerHTML +=
-                    '<a class="btn btn-wa" target="_blank" rel="noopener" data-cta="diag-result-wa" href="' + waLink(msg) + '"><i class="fa-brands fa-whatsapp"></i> Pedir mi evaluación por WhatsApp</a>' +
-                    '<small>Este autodiagnóstico es orientativo y no reemplaza una inspección acreditada.</small>';
-                diagResult.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            });
-
-            // ---------- Cotización rápida (abre WhatsApp y envía copia por correo) ----------
-            const quoteForm = document.getElementById('quoteForm');
-            const quoteMsg = document.getElementById('quoteMsg');
-
-            quoteForm.addEventListener('submit', function (e) {
-                e.preventDefault();
-                const d = Object.fromEntries(new FormData(quoteForm).entries());
-                if (d.botcheck) return; // anti-spam
-
-                const lines = [
-                    'Hola, quiero una cotización con Altas Verificaciones en Seguridad.',
-                    'Nombre: ' + d.nombre,
-                    d.empresa ? 'Estación / empresa: ' + d.empresa : null,
-                    'Ciudad: ' + d.ciudad,
-                    'Servicio: ' + d.servicio,
-                    d.tanques ? 'Tanques / capacidad: ' + d.tanques : null,
-                    'Mi teléfono: ' + d.telefono
-                ].filter(Boolean);
-                const url = waLink(lines.join('\n'));
-
-                // Abrir WhatsApp dentro del gesto del usuario (evita bloqueo de ventanas emergentes)
-                window.open(url, '_blank', 'noopener');
-
-                // Copia de respaldo por correo para no perder el contacto
-                fetch(WEB3_URL, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-                    body: JSON.stringify({
-                        access_key: WEB3_KEY,
-                        subject: 'Nueva solicitud de cotización - Altas Verificaciones en Seguridad',
-                        from_name: d.nombre,
-                        nombre: d.nombre,
-                        telefono: d.telefono,
-                        empresa: d.empresa || '',
-                        ciudad: d.ciudad,
-                        servicio: d.servicio,
-                        tanques: d.tanques || ''
-                    })
-                }).catch(function () { /* el contacto principal es WhatsApp */ });
-
-                showMsg(quoteMsg, 'ok',
-                    '<strong>¡Gracias, ' + d.nombre.replace(/</g, '&lt;') + '!</strong> Se abrió WhatsApp con su solicitud; solo falta enviarla. ' +
-                    'Si no se abrió, <a href="' + url + '" target="_blank" rel="noopener">haga clic aquí</a>.');
-                quoteForm.reset();
-            });
-
-            // ---------- PQRS (envío sin salir de la página) ----------
-            const pqrsForm = document.getElementById('pqrsForm');
-            const pqrsBtn = document.getElementById('pqrsBtn');
-            const pqrsMsg = document.getElementById('pqrsMsg');
-
-            pqrsForm.addEventListener('submit', function (e) {
-                e.preventDefault();
-                pqrsBtn.disabled = true;
-                pqrsBtn.textContent = 'Enviando...';
-                fetch(WEB3_URL, {
-                    method: 'POST',
-                    headers: { 'Accept': 'application/json' },
-                    body: new FormData(pqrsForm)
-                })
-                .then(function (res) { return res.json(); })
-                .then(function (data) {
-                    if (!data.success) throw new Error(data.message || 'error');
-                    showMsg(pqrsMsg, 'ok', '<strong>Recibimos su solicitud.</strong> Le responderemos al correo y teléfono registrados.');
-                    pqrsForm.reset();
-                })
-                .catch(function () {
-                    showMsg(pqrsMsg, 'err', 'No pudimos enviar su solicitud. Intente de nuevo o escríbanos a <a href="mailto:administrativo@avssas.com">administrativo@avssas.com</a>.');
-                })
-                .finally(function () {
-                    pqrsBtn.disabled = false;
-                    pqrsBtn.textContent = 'Enviar PQRS';
-                });
-            });
-        })();
+        // Reabrir modal desde el botón flotante
+        riskFloatingBtn.addEventListener('click', () => {
+            riskFloatingBtn.classList.remove('show');
+            modalClosedByUser = false;
+            riskModal.classList.add('active');
+        });
     </script>
 
 </body>
