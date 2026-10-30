@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Altas Verificaciones en Seguridad | Organismo de Inspección Acreditado ONAC</title>
-    <meta name="description" content="Organismo de Inspección acreditado bajo ISO/IEC 17020:2012 (Código 24-OIN-047). Inspecciones de Estaciones de Servicio (EDS) y pruebas de hermeticidad.">
+    <title>Altas Verificaciones en Seguridad S.A.S | Organismo de Inspección Acreditado ONAC</title>
+    <meta name="description" content="Organismo de Inspección acreditado bajo ISO/IEC 17020:2012 (Código 24-OIN-047). Inspecciones de Estaciones de Servicio (EDS) y pruebas de hermeticidad según Resolución 40198.">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <!-- FontAwesome para Iconos -->
@@ -28,7 +28,7 @@
         header { background: var(--white); box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; width: 100%; }
         .nav-container { width: 100%; max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 15px 30px; }
         
-        /* Contenedor del Logotipo con Imagen Real */
+        /* Contenedor del Logotipo */
         .brand-container { display: flex; align-items: center; gap: 12px; text-decoration: none; }
         .logo-img { height: 45px; width: auto; object-fit: contain; }
         .logo-text { font-family: 'Montserrat', sans-serif; font-weight: 700; color: var(--primary); font-size: 1.05rem; line-height: 1.2; }
@@ -46,8 +46,10 @@
         .hero h1 { font-size: 2.8rem; color: var(--white); margin-bottom: 20px; }
         .hero p { font-size: 1.2rem; max-width: 900px; margin: 0 auto 30px; color: #e2e8f0; }
         .badge-onac { background: rgba(255, 122, 0, 0.2); display: inline-block; padding: 8px 18px; border-radius: 30px; font-weight: 600; margin-bottom: 20px; border: 1px solid var(--accent); color: #fff; font-size: 0.9rem; }
-        .btn { display: inline-block; background: var(--accent); color: var(--white); padding: 12px 30px; border-radius: 5px; font-weight: 700; text-decoration: none; transition: background 0.3s, transform 0.2s; border: none; cursor: pointer; }
+        .btn { display: inline-block; background: var(--accent); color: var(--white); padding: 12px 30px; border-radius: 5px; font-weight: 700; text-decoration: none; transition: background 0.3s, transform 0.2s; border: none; cursor: pointer; text-align: center; }
         .btn:hover { background: var(--accent-hover); transform: translateY(-2px); }
+        .btn-whatsapp-service { background: var(--whatsapp); display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 15px; width: 100%; padding: 10px; font-size: 0.95rem; }
+        .btn-whatsapp-service:hover { background: #20ba5a; }
 
         /* Botón Flotante de WhatsApp */
         .whatsapp-float {
@@ -74,21 +76,21 @@
             background-color: #20ba5a;
         }
 
-        /* Secciones de Ancho Completo Fluidas */
+        /* Secciones */
         section { width: 100%; max-width: 1400px; margin: 60px auto; padding: 0 30px; }
         .section-title { text-align: center; margin-bottom: 40px; }
         .section-title h2 { font-size: 2.2rem; position: relative; display: inline-block; }
         .section-title h2::after { content: ''; width: 60px; height: 3px; background: var(--accent); display: block; margin: 10px auto 0; border-radius: 2px; }
 
         /* Grids adaptables */
-        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; width: 100%; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: stretch; width: 100%; }
         .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; width: 100%; }
-        .card { background: var(--white); padding: 35px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 4px solid var(--accent); height: 100%; }
+        .card { background: var(--white); padding: 35px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 4px solid var(--accent); height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
         .card h3 { margin-bottom: 15px; color: var(--primary); font-size: 1.3rem; }
 
         /* Listas */
-        ul.check-list { list-style: none; margin-top: 15px; }
-        ul.check-list li { margin-bottom: 12px; position: relative; padding-left: 25px; font-size: 1rem; }
+        ul.check-list { list-style: none; margin-top: 15px; margin-bottom: 20px; flex-grow: 1; }
+        ul.check-list li { margin-bottom: 12px; position: relative; padding-left: 25px; font-size: 0.95rem; }
         ul.check-list li::before { content: '✔'; position: absolute; left: 0; color: var(--accent); font-weight: bold; }
 
         /* Acordeón FAQ */
@@ -146,8 +148,8 @@
 </head>
 <body>
 
-   <!-- BOTÓN FLOTANTE DE WHATSAPP -->
-    <a href="https://api.whatsapp.com/send?phone=573188684879&text=Hola,%20requiero%20información%20sobre%20inspecciones%20y%20servicios%20de%20Altas%20Verificaciones%20en%20Seguridad" class="whatsapp-float" target="_blank" aria-label="Soporte por WhatsApp">
+    <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+    <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20requiero%20información%20sobre%20inspecciones%20y%20servicios%20de%20Altas%20Verificaciones%20en%20Seguridad" class="whatsapp-float" target="_blank" aria-label="Soporte por WhatsApp">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 
@@ -157,7 +159,7 @@
                 <img src="logo.png" alt="Logo Altas Verificaciones" class="logo-img">
                 <div class="logo-text">
                     ALTAS VERIFICACIONES EN SEGURIDAD
-                    <span>AVS SAS | ISO/IEC 17020:2012</span>
+                    <span>AV.S S.A.S | ISO/IEC 17020:2012</span>
                 </div>
             </a>
             <button class="menu-toggle" id="menu-btn" aria-label="Abrir menú">
@@ -170,7 +172,6 @@
                     <li><a href="#acreditacion">Acreditación ONAC</a></li>
                     <li><a href="#servicios">Servicios</a></li>
                     <li><a href="#faq">FAQ</a></li>
-                    <li><a href="politicas.html">Políticas</a></li>
                     <li><a href="#pqrs" style="color: var(--accent);">Canal PQRS</a></li>
                     <li><a href="#contacto" class="btn" style="padding: 8px 18px; font-size: 0.9rem; color: #fff;">Contacto</a></li>
                 </ul>
@@ -180,28 +181,28 @@
 
     <section id="inicio" class="hero" style="margin:0; max-width:100%;">
         <div class="badge-onac"><i class="fa-solid fa-certificate"></i> Organismo Acreditado ONAC | Código: 24-OIN-047</div>
-        <h1>ALTAS VERIFICACIONES EN SEGURIDAD</h1>
-        <p>Organismo de Inspección Tipo A acreditado bajo la norma ISO/IEC 17020:2012 para inspección de Estaciones de Servicio Automotriz (EDS) y pruebas de hermeticidad.</p>
-        <a href="#contacto" class="btn">Solicitar Inspección Técnica</a>
+        <h1>ALTAS VERIFICACIONES EN SEGURIDAD S.A.S</h1>
+        <p>Pruebas de hermeticidad a tanques subterráneos y tuberías e Inspección a Estaciones de Servicio Automotriz con cumplimiento del 100% a la Resolución 40198.</p>
+        <a href="#servicios" class="btn">Conocer Servicios</a>
     </section>
 
     <section id="quienes-somos">
         <div class="section-title">
-            <h2>Quiénes Somos</h2>
+            <h2>Quiénes Somos / Misión</h2>
         </div>
         <div class="grid-2">
             <div>
-                <p>En <strong>ALTAS VERIFICACIONES EN SEGURIDAD AVS SAS</strong> somos un Organismo de Inspección independiente, imparcial y técnicamente competente. Evaluamos con rigor el cumplimiento de los requisitos técnicos, operativos y de seguridad en instalaciones que almacenan y distribuyen combustibles líquidos.</p>
+                <p>En <strong>ALTAS VERIFICACIONES EN SEGURIDAD S.A.S (AV.S S.A.S)</strong> somos un organismo de inspección acreditado por el Organismo Nacional de Acreditación de Colombia (ONAC). Operamos bajo los principios de imparcialidad y confiabilidad en los resultados de nuestras inspecciones y pruebas[cite: 4].</p>
                 <br>
-                <p><strong>Misión:</strong> Garantizar la seguridad operacional y el cumplimiento normativo de instalaciones que almacenan y distribuyen combustibles líquidos en Colombia.</p>
+                <p>Ofrecemos a nuestros clientes la confianza y seguridad en las operaciones efectuadas en sus Estaciones de Servicio Automotriz, a través de un equipo humano competente, métodos, instrumentos y experiencia, basados en los requisitos legales y normativos[cite: 4].</p>
             </div>
             <div class="card">
-                <h3>Valores Corporativos</h3>
-                <ul class="check-list">
+                <h3>Respaldo y Alianzas</h3>
+                <p>Contamos con un equipo técnico altamente calificado y nos encontramos vinculados al <strong>Laboratorio Energía Segura SAS</strong>, experto en la realización de pruebas hidrostáticas para cilindros de gases del aire desde el año 2019[cite: 4].</p>
+                <ul class="check-list" style="margin-top: 15px;">
                     <li>Imparcialidad y Objetividad técnica</li>
                     <li>Competencia técnica rigurosa</li>
                     <li>Integridad y transparencia en los resultados</li>
-                    <li>Confidencialidad absoluta de la información</li>
                 </ul>
             </div>
         </div>
@@ -213,44 +214,72 @@
         </div>
         <div class="grid-3">
             <div class="card">
-                <h3><i class="fa-solid fa-award" style="color: var(--accent);"></i> Marco Normativo</h3>
-                <p>Acreditados bajo la norma internacional <strong>ISO/IEC 17020:2012</strong>, cumpliendo los criterios internacionales de competencia para organismos de inspección.</p>
+                <h3><i class="fa-solid fa-award" style="color: var(--accent);"></i> Norma Técnica</h3>
+                <p>Acreditados bajo la norma internacional <strong>NTC-ISO/IEC 17020:2012</strong>, cumpliendo los criterios de competencia para organismos de inspección[cite: 2].</p>
             </div>
             <div class="card">
                 <h3><i class="fa-solid fa-shield-halved" style="color: var(--accent);"></i> Código Oficial</h3>
-                <p>Nuestra competencia técnica se encuentra respaldada bajo el código de acreditación <strong>24-OIN-047</strong> otorgado por el Organismo Nacional de Acreditación de Colombia (ONAC).</p>
+                <p>Nuestra competencia técnica está respaldada bajo el código de acreditación <strong>24-OIN-047</strong> otorgado por el Organismo Nacional de Acreditación de Colombia (ONAC)[cite: 3].</p>
             </div>
             <div class="card">
-                <h3><i class="fa-solid fa-file-arrow-down" style="color: var(--accent);"></i> Transparencia</h3>
-                <p>Nuestros dictámenes cuentan con validez legal y técnica plena ante ministerios, entidades de control y entes territoriales a nivel nacional.</p>
+                <h3><i class="fa-solid fa-file-shield" style="color: var(--accent);"></i> Marco Regulatorio</h3>
+                <p>Evaluaciones alineadas estrictamente al reglamento técnico de la <strong>Resolución 40198 de 2021</strong> del Ministerio de Minas y Energía[cite: 3, 4].</p>
             </div>
         </div>
     </section>
 
+    <!-- SECCIÓN DE SERVICIOS BASADA EN EL BROCHURE -->
     <section id="servicios">
         <div class="section-title">
-            <h2>Servicios Especializados</h2>
+            <h2>Nuestros Servicios Especializados</h2>
         </div>
-        <div class="grid-2">
+        <div class="grid-3">
+            <!-- Servicio 1 -->
             <div class="card">
-                <h3>🛢️ Inspección de Estaciones de Servicio (EDS)</h3>
-                <p>Evaluación integral conforme a la <strong>Resolución 40198 de 2021</strong> y normativa asociada:</p>
-                <ul class="check-list">
-                    <li>Áreas de recibo, descargue y tanques de almacenamiento.</li>
-                    <li>Sistemas de tuberías y dispensadores.</li>
-                    <li>Instalaciones eléctricas clasificadas (HAZLOC).</li>
-                    <li>Sistemas contra incendios y planes de emergencia.</li>
-                </ul>
+                <div>
+                    <h3>01. Inspección de Estaciones de Servicio Automotriz</h3>
+                    <p>Servicio de evaluación de la conformidad de carácter obligatorio conforme a la <strong>Resolución 40198 de 2021</strong> (que modifica la Resolución 40405 de 2020) del Ministerio de Minas y Energía[cite: 4].</p>
+                    <ul class="check-list">
+                        <li>Evaluación previa con lista de chequeo normativa.</li>
+                        <li>Visita de campo para inspección técnica integral.</li>
+                        <li>Emisión de informe y certificado de conformidad acreditado ONAC.</li>
+                    </ul>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20deseo%20solicitar%20el%20servicio%20de%20Inspección%20de%20Estaciones%20de%20Servicio%20Automotriz" class="btn btn-whatsapp-service" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Solicitar Servicio
+                </a>
             </div>
+
+            <!-- Servicio 2 -->
             <div class="card">
-                <h3>🔍 Pruebas de Hermeticidad</h3>
-                <p>Verificación técnica de estanqueidad para mitigar riesgos ambientales:</p>
-                <ul class="check-list">
-                    <li>Tanques de almacenamiento subterráneo (TAS).</li>
-                    <li>Redes de tuberías de succión y presión.</li>
-                    <li>Equipos calibrados con trazabilidad metrológica.</li>
-                    <li>Emisión de dictámenes oportunos.</li>
-                </ul>
+                <div>
+                    <h3>02. Pruebas de Hermeticidad a Tanques y Tuberías</h3>
+                    <p>Ensayo No Destructivo para detectar caudales de fuga según la <strong>Norma NFPA 30</strong> y el reglamento técnico de la <strong>Resolución 40198 de 2021</strong>[cite: 4].</p>
+                    <ul class="check-list">
+                        <li>Tanques subterráneos y superficiales (capacidad total hasta 150.000 Litros)[cite: 3, 4].</li>
+                        <li>Redes de tuberías asociadas en EDS[cite: 4].</li>
+                        <li>Equipos con trazabilidad metrológica y personal competente.</li>
+                    </ul>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20deseo%20solicitar%20el%20servicio%20de%20Pruebas%20de%20Hermeticidad%20a%20Tanques%20y%20Tuberías" class="btn btn-whatsapp-service" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Solicitar Servicio
+                </a>
+            </div>
+
+            <!-- Servicio 3 -->
+            <div class="card">
+                <div>
+                    <h3>03. Pruebas Hidrostáticas en Tanques y Tuberías</h3>
+                    <p>Actividad correspondiente al <strong>ámbito voluntario</strong> desarrollada con altos estándares de seguridad industrial y metrología[cite: 4].</p>
+                    <ul class="check-list">
+                        <li>Aplicable a todo tipo de tanques de almacenamiento de líquidos, gases y aire[cite: 4].</li>
+                        <li>Sistemas o redes de tuberías para líquidos, gases o aire[cite: 4].</li>
+                        <li>Respaldo técnico especializado.</li>
+                    </ul>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20deseo%20solicitar%20el%20servicio%20de%20Pruebas%20Hidrostáticas" class="btn btn-whatsapp-service" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Solicitar Servicio
+                </a>
             </div>
         </div>
     </section>
@@ -266,49 +295,39 @@
                     <i class="fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Nuestros dictámenes cuentan con respaldo oficial al estar acreditados por el Organismo Nacional de Acreditación de Colombia (ONAC) bajo el código <strong>24-OIN-047</strong> y la norma internacional <strong>ISO/IEC 17020:2012</strong>.</p>
+                    <p>Nuestros dictámenes cuentan con respaldo oficial al estar acreditados por el Organismo Nacional de Acreditación de Colombia (ONAC) bajo el código <strong>24-OIN-047</strong> y la norma internacional <strong>ISO/IEC 17020:2012</strong>[cite: 2, 3].</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    ¿Cada cuánto tiempo se debe inspeccionar una Estación de Servicio (EDS)?
+                    ¿Cuál es la normativa aplicable para las Estaciones de Servicio?
                     <i class="fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>De acuerdo con la normativa vigente (Resolución 40198 de 2021 del Ministerio de Minas y Energía), las inspecciones periódicas de cumplimiento técnico y las pruebas de hermeticidad deben realizarse conforme a las frecuencias regulatorias establecidas para mantener la certificación operacional al día.</p>
+                    <p>Las inspecciones y pruebas se ejecutan dando cumplimiento integral al reglamento técnico establecido en la <strong>Resolución 40198 de 2021</strong> del Ministerio de Minas y Energía[cite: 3, 4].</p>
                 </div>
             </div>
 
             <div class="faq-item">
                 <button class="faq-question">
-                    ¿Qué sucede si se identifican no conformidades en la inspección?
+                    ¿Qué capacidad máxima cubren las pruebas de hermeticidad en tanques superficiales?
                     <i class="fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>En caso de hallar hallazgos o no conformidades, el organismo entrega un informe técnico detallado para que la instalación realice los correctivos necesarios en un plazo normativo establecido antes de una reinspección de cierre.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <button class="faq-question">
-                    ¿Cuál es el tiempo de respuesta para la atención de una PQRS?
-                    <i class="fa-solid fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Garantizamos el tratamiento imparcial y confidencial de toda solicitud recibida mediante nuestro canal oficial, emitiendo una respuesta formal dentro de los plazos reglamentarios estipulados en nuestro sistema de gestión de calidad.</p>
+                    <p>Cubrimos pruebas en tanques subterráneos y tanques superficiales hasta un total de capacidad de todos los tanques de las instalaciones de 150.000 Litros[cite: 3].</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECCIÓN DE FORMULARIO CONECTADA A WEB3FORMS -->
+    <!-- SECCIÓN DE FORMULARIO (PQRS) -->
     <section id="pqrs">
         <div class="section-title">
-            <h2>Sistema de Peticiones, Quejas, Reclamos y Sugerencias (PQRS)</h2>
+            <h2>Canal PQRS</h2>
         </div>
         <div class="form-container">
-            <p style="text-align: center; margin-bottom: 30px; color: #555;">Dando cumplimiento al requisito normativo de la norma ISO/IEC 17020:2012 y con el compromiso de mejora continua, ponemos a su disposición este canal oficial para la atención de sus PQRS.</p>
+            <p style="text-align: center; margin-bottom: 30px; color: #555;">Dando cumplimiento a los requisitos de la norma ISO/IEC 17020:2012, ponemos a su disposición este canal oficial para Peticiones, Quejas, Reclamos y Sugerencias.</p>
             
             <form action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="b093da6c-1c7e-47c4-9979-85004b33d6b1">
@@ -341,16 +360,16 @@
                     <label for="tipo_pqrs">Tipo de Solicitud *</label>
                     <select id="tipo_pqrs" name="tipo_pqrs" class="form-control" required>
                         <option value="">Seleccione una opción...</option>
-                        <option value="Peticion">Petición (Solicitud de información o documentos)</option>
-                        <option value="Queja">Queja (Inconformidad con la atención o personal)</option>
-                        <option value="Reclamo">Reclamo (Disconformidad sobre resultados o procesos)</option>
-                        <option value="Sugerencia">Sugerencia (Propuesta u oportunidad de mejora)</option>
+                        <option value="Peticion">Petición</option>
+                        <option value="Queja">Queja</option>
+                        <option value="Reclamo">Reclamo</option>
+                        <option value="Sugerencia">Sugerencia</option>
                     </select>
                 </div>
 
                 <div class="form-group">
-                    <label for="mensaje">Descripción Detallada del Requerimiento *</label>
-                    <textarea id="mensaje" name="message" class="form-control" required placeholder="Describa con claridad los motivos o detalles de su solicitud..."></textarea>
+                    <label for="mensaje">Descripción Detallada *</label>
+                    <textarea id="mensaje" name="message" class="form-control" required placeholder="Describa con claridad su solicitud..."></textarea>
                 </div>
 
                 <div style="text-align: center; margin-top: 30px;">
@@ -362,19 +381,20 @@
 
    <section id="contacto">
         <div class="section-title">
-            <h2>Contacto y Cotizaciones</h2>
+            <h2>Contacto</h2>
         </div>
         <div class="card" style="max-width: 800px; margin: 0 auto; text-align: center;">
-            <h3>¿Requiere una inspección acreditada para su instalación?</h3>
-            <p style="margin-bottom: 20px;">Contáctenos hoy mismo para recibir asesoría especializada y cotizar los servicios de su EDS o planta de combustibles.</p>
-            <p><strong>Correo electrónico:</strong> contacto@altasverificaciones.com</p>
-            <p style="margin-top: 10px;"><strong>Soporte Directo WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=573188684879&text=Hola,%20requiero%20información%20sobre%20inspecciones%20y%20servicios%20de%20Altas%20Verificaciones%20en%20Seguridad" target="_blank" style="color: var(--whatsapp); font-weight: 600; text-decoration: none;"><i class="fa-brands fa-whatsapp"></i> +57 318 868 4879</a></p>
-            <p style="margin-top: 15px;"><strong>Organismo de Inspección Acreditado ONAC - Código 24-OIN-047</strong></p>
+            <h3>Estamos listos para atender sus requerimientos con total respaldo técnico</h3>
+            <p style="margin-bottom: 20px;">Especialistas en Pruebas de hermeticidad para tanques y tuberías e Inspección para Estaciones de Servicio Automotriz bajo la Resolución 40198 de 2021[cite: 4].</p>
+            <p><strong>Teléfono / WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=573153655177&text=Hola,%20requiero%20información%20sobre%20inspecciones" target="_blank" style="color: var(--whatsapp); font-weight: 600; text-decoration: none;"><i class="fa-brands fa-whatsapp"></i> +57 315 365 5177</a>[cite: 4]</p>
+            <p style="margin-top: 10px;"><strong>Correo electrónico:</strong> administrativo@avssas.com[cite: 4]</p>
+            <p style="margin-top: 10px;"><strong>Sitio Web:</strong> www.organismodeinspeccionavssas.com[cite: 4]</p>
+            <p style="margin-top: 15px;"><strong>Organismo de Inspección Acreditado ONAC - Código 24-OIN-047 (ISO/IEC 17020:2012)</strong>[cite: 2, 3]</p>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 ALTAS VERIFICACIONES EN SEGURIDAD AVS SAS. Todos los derechos reservados.</p>
+        <p>&copy; 2026 ALTAS VERIFICACIONES EN SEGURIDAD S.A.S. Todos los derechos reservados.</p>
         <p>Acreditado ISO/IEC 17020:2012 | ONAC Código 24-OIN-047</p>
     </footer>
 
